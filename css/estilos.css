@@ -1,0 +1,98 @@
+*{margin: 0;}
+
+/* TITULO */
+
+.header{
+	font-size: 50px;
+	text-align: center;
+    background-color:black;
+    background-position: center;
+    color: aliceblue;
+    font-family: Raleway, sans-serif, Geneva, Verdana, sans-serif;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.h2 img{
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+/* SECCION TEXTO E IMAGEN */
+
+.info{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+    gap: 6em;
+    padding: 5em;
+    font-size:x-large;
+}
+
+.texto{
+    padding: 1em;
+    
+}
+
+.imagentexto{
+    height: 350px;
+    gap: 2em;
+}
+
+
+/* CARACTERISTICAS */
+
+.h3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 29, 29);
+    color: aliceblue;
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    font-size:40px;
+}
+
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(30, 29, 29);;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 10%;
+    padding:2em;
+    font-size:30px;
+}
+
+/* IMAGENES */
+
+.box{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: 60px;
+    background-color: black;
+    color:aliceblue;
+}
+
+.box-img img {
+    width: 200px;
+    padding: 3em;
+}
+
+/* PIE DE PAGINA */
+
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: black ; color: white;
+    text-align: center;
+    opacity: 0.8;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
